@@ -6,6 +6,7 @@ const tourRouter = require('./routes/tourRoutes')
 const userRouter = require('./routes/userRoutes')
 const reviewRouter = require('./routes/reviewRoutes')
 const bookingRouter = require('./routes/bookingRoutes')
+const compression = require('compression')
 const helmet = require('helmet')
 const mongoSanitize = require('express-mongo-sanitize')
 const XSS = require('xss-clean')
@@ -47,6 +48,8 @@ app.use(XSS())
 app.use(hpp({
     whitelist:['duration','ratingsAverage','ratingsQuantity','maxGroupSize','difficulty','price']
 }))
+
+app.use(compression())
 
 app.get('/',(req,res)=>{
     res.status(200).json({message:'hello everyoneُ❤️ ',app:'natours'})
