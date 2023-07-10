@@ -15,7 +15,7 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
 - Node.js
 - MongoDB
 - NPM or Yarn
-- Java script
+- JavaScript
 
 ### Installation
 
@@ -43,7 +43,7 @@ Run the app using npm start or yarn start.<br> Open your browser and go to http:
 
 ### :sparkles: Features
 User registration and login with JWT authentication<br> Password reset with email verification<br>
-User roles and permissions<br> Searching for tours(Filtering $ Sorting)<br> Tour creation, update and deletion<br> Tour image upload and processing<br> Tour ratings and reviews<br> Tour booking with Stripe integration<br> Booking confirmation and invoice email<br> Error handling and logging<br>
+User roles and permissions<br> Searching for tours (Filtering & Sorting)<br> Tour creation, update and deletion<br> Tour image upload and processing<br> Tour ratings and reviews<br> Tour booking with Stripe integration<br> Booking confirmation and invoice email<br> Error handling and logging<br>
 ### :hammer_and_wrench: Technologies
 Node.js<br> Express<br> MongoDB<br> Mongoose<br> Stripe<br> Sendgrid<br> Nodemailer<br> Multer<br> Sharp<br> Helmet<br> Xss<br> Morgan<br> Bcrypt<br> Jsonwebtoken<br> Validator<br>
 
