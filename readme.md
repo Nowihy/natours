@@ -1,7 +1,3 @@
-# Natours Application
-
-Built using modern technologies: node.js, express, mongoDB and mongoose
-
 <h1 align="center">Natours</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js badge">
