@@ -49,7 +49,11 @@ app.use(hpp({
 app.use(compression())
 
 app.get('/',(req,res)=>{
-    res.status(200).json({message:'hello everyoneُ❤️ ',app:'natours'})
+    res.status(200).json({
+        "message": "hello everyone❤️",
+        "app": "natours",
+        "author": "Nowihy"
+    })
 })
 
 app.use((req,res,next)=>{
